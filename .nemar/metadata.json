@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A COVID-19 survivors and close contacts EEG dataset",
-  "description": "This dataset comprises 169 resting-state electroencephalography (EEG) recordings from COVID-19 survivors (n=86) and healthy close contacts (n=83), acquired using standard 10-20 electrode montage. The study characterizes EEG signatures associated with COVID-19 infection and recovery, comparing neurophysiological patterns between affected and control populations. Data collection included a total of 12 minutes of EEG recording: 8 minutes of eyes-closed resting EEG followed by 2 minutes of alternating eye-state conditions, and 2 minutes of recovery, providing a comprehensive neurophysiological profile relevant to understanding post-COVID neurological sequelae.",
-  "methods_description": "EEG was acquired using a 10-20 standard montage. Resting EEG was recorded for 8 minutes with eyes closed in all participants. Additional recordings included 2 minutes of alternating closed and open eyes, followed by 2 minutes of recovery, for a total recording duration of 12 minutes per participant.",
+  "description": "This dataset comprises 169 resting-state electroencephalograms (EEGs) from COVID-19 survivors (n=86) and healthy close contacts (n=83), acquired using standard 10-20 electrode montage. The study characterizes EEG signatures associated with COVID-19 infection and recovery, comparing neurophysiological patterns between affected and control groups. Data collection included 8 minutes of eyes-closed resting EEG followed by alternating eye-state conditions, providing a comprehensive neurophysiological profile relevant to understanding post-COVID neurological sequelae.",
+  "methods_description": "EEG was acquired using a 10-20 standard montage. Resting EEG was recorded for 8 minutes with eyes closed in all participants. Additional recordings included 2 minutes of alternating closed and open eyes, followed by 2 minutes of recovery.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -45,7 +45,7 @@
     {
       "term": "COVID-19",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000086382"
+      "value_uri": "https://meshb.nlm.nih.gov/record/ui?ui=D000086382"
     },
     {
       "term": "resting-state EEG"
@@ -57,13 +57,21 @@
       "term": "electroencephalography"
     },
     {
-      "term": "post-COVID syndrome"
-    },
-    {
-      "term": "case-control study"
+      "term": "post-COVID syndrome",
+      "subject_scheme": "MeSH",
+      "value_uri": "https://meshb.nlm.nih.gov/record/ui?ui=D000090203"
     },
     {
       "term": "COVID-19 survivors"
+    },
+    {
+      "term": "close contacts"
+    },
+    {
+      "term": "neurological sequelae"
+    },
+    {
+      "term": "brain oscillations"
     }
   ],
   "related_identifiers": [
