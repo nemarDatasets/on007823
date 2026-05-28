@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A COVID-19 survivors and close contacts EEG dataset",
+  "description": "This dataset comprises 169 resting-state electroencephalography (EEG) recordings from COVID-19 survivors (n=86) and healthy close contacts (n=83), acquired using standard 10-20 electrode montage. The study characterizes EEG signatures associated with COVID-19 infection and recovery, comparing neurophysiological patterns between affected and control populations. Data collection included a total of 12 minutes of EEG recording: 8 minutes of eyes-closed resting EEG followed by 2 minutes of alternating eye-state conditions, and 2 minutes of recovery, providing a comprehensive neurophysiological profile relevant to understanding post-COVID neurological sequelae.",
+  "methods_description": "EEG was acquired using a 10-20 standard montage. Resting EEG was recorded for 8 minutes with eyes closed in all participants. Additional recordings included 2 minutes of alternating closed and open eyes, followed by 2 minutes of recovery, for a total recording duration of 12 minutes per participant.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -36,12 +38,35 @@
     "Roberto Rodriguez-Labrada": {},
     "Pedro Valdés-Sosa": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007823.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "COVID-19",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000086382"
+    },
+    {
+      "term": "resting-state EEG"
+    },
+    {
+      "term": "neurophysiology"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "post-COVID syndrome"
+    },
+    {
+      "term": "case-control study"
+    },
+    {
+      "term": "COVID-19 survivors"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1016/j.cnp.2026.02.007",
       "identifier_type": "DOI",
@@ -61,6 +86,11 @@
       "identifier": "10.1016/j.cnp.2023.02.007",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007823.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -74,10 +104,10 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "1.2 GB (171 files)"
   ],
@@ -88,50 +118,5 @@
     ".tsv",
     ".yml"
   ],
-  "description": "This dataset comprises 169 resting-state electroencephalograms (EEGs) from COVID-19 survivors (n=86) and close contacts/healthy controls (n=83), acquired using standard 10-20 electrode montage. The study investigates neurophysiological signatures of COVID-19 infection through quantitative EEG analysis, comparing spectral and functional connectivity patterns between groups and against a Cuban normative database. The dataset includes 8 minutes of eyes-closed resting EEG, followed by alternating eye-state conditions, providing a comprehensive neurophysiological characterization of post-COVID neurological sequelae.",
-  "methods_description": "EEG was recorded using a 10-20 standard montage. Resting-state EEG was acquired for 8 minutes with eyes closed in all participants, followed by 2 minutes of alternating closed and open eyes, and 2 minutes of recovery.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "COVID-19",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000086382"
-    },
-    {
-      "term": "resting-state EEG"
-    },
-    {
-      "term": "neurophysiology"
-    },
-    {
-      "term": "spectral analysis"
-    },
-    {
-      "term": "post-COVID syndrome"
-    },
-    {
-      "term": "functional connectivity"
-    },
-    {
-      "term": "quantitative EEG"
-    },
-    {
-      "term": "post-COVID neurological sequelae"
-    },
-    {
-      "term": "normative database"
-    },
-    {
-      "term": "close contacts"
-    },
-    {
-      "term": "healthy controls"
-    },
-    {
-      "term": "Cuba"
-    }
-  ],
-  "source_hash": "78beed7a6403d742e783713832e2d6d427b3b8936946c94c5ff20644d8f71e09"
+  "source_hash": "61e203b375264a579d2c67a4e7286d35fe813b6b4e8ca4dfe0f9b560cb3de84c"
 }
