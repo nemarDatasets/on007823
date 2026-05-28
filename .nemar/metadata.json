@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on007823",
-  "source": "openneuro",
-  "source_id": "ds007823",
+  "pipeline_stage": "enriched",
   "title": "A COVID-19 survivors and close contacts EEG dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Ana Calzada-Reyes": {},
     "Eduardo Aubert-Vázquez": {},
@@ -29,32 +29,109 @@
     "Shahwar Yasir": {},
     "Yu Kin": {},
     "Peng Ren": {},
-    "Dezhong Yao": {},
+    "Dezhong Yao": {
+      "orcid": "0000-0002-8042-879X"
+    },
     "Luo Cheng": {},
     "Roberto Rodriguez-Labrada": {},
     "Pedro Valdés-Sosa": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007823.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1016/j.cnp.2026.02.007",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007823",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007823",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.cnp.2023.02.007",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "This work was supported by National Key R&D Program of China, (2024YFE0215100), and Chengdu Science and Technology Bureau Program of China under Grant (2022-GH02-00042-HZ)"
+      "funder_name": "National Key R&D Program of China",
+      "award_number": "2024YFE0215100"
+    },
+    {
+      "funder_name": "Chengdu Science and Technology Bureau",
+      "award_number": "2022-GH02-00042-HZ"
     }
   ],
-  "acknowledgements": "The authors want to thank to all EEG technicians from the Clinical Services and psychologists of the Cuban Center for Neurosciences, and the specialists in Psychiatry and Neurology from the Cuban Neurological and Neurosurgical Institute and other hospitals from Havana for their contribution to the assessment to the patients. We would also like to thank to the Clinical Neurophysiology Department of the Hermanos Amejeiras Hospital and the Mental Health Center in Playa municipality for their support in this research"
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.2 GB (171 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises 169 resting-state electroencephalograms (EEGs) from COVID-19 survivors (n=86) and close contacts/healthy controls (n=83), acquired using standard 10-20 electrode montage. The study investigates neurophysiological signatures of COVID-19 infection through quantitative EEG analysis, comparing spectral and functional connectivity patterns between groups and against a Cuban normative database. The dataset includes 8 minutes of eyes-closed resting EEG, followed by alternating eye-state conditions, providing a comprehensive neurophysiological characterization of post-COVID neurological sequelae.",
+  "methods_description": "EEG was recorded using a 10-20 standard montage. Resting-state EEG was acquired for 8 minutes with eyes closed in all participants, followed by 2 minutes of alternating closed and open eyes, and 2 minutes of recovery.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "COVID-19",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000086382"
+    },
+    {
+      "term": "resting-state EEG"
+    },
+    {
+      "term": "neurophysiology"
+    },
+    {
+      "term": "spectral analysis"
+    },
+    {
+      "term": "post-COVID syndrome"
+    },
+    {
+      "term": "functional connectivity"
+    },
+    {
+      "term": "quantitative EEG"
+    },
+    {
+      "term": "post-COVID neurological sequelae"
+    },
+    {
+      "term": "normative database"
+    },
+    {
+      "term": "close contacts"
+    },
+    {
+      "term": "healthy controls"
+    },
+    {
+      "term": "Cuba"
+    }
+  ],
+  "source_hash": "78beed7a6403d742e783713832e2d6d427b3b8936946c94c5ff20644d8f71e09"
 }
